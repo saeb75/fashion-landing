@@ -33,6 +33,13 @@ function DesHeader() {
             Terms of Service
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-200 group-hover:w-full"></span>
           </Link>
+          <Link
+            href="/account-deletion"
+            className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200 cursor-pointer relative group"
+          >
+            Account Deletion
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-200 group-hover:w-full"></span>
+          </Link>
         </nav>
       </div>
     </div>

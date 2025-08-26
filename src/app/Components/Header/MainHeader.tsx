@@ -157,6 +157,13 @@ function MainHeader() {
                 >
                   Terms of Service
                 </Link>
+                <Link
+                  href="/account-deletion"
+                  className="text-2xl font-semibold text-gray-800 hover:text-blue-600 transition-colors duration-200 cursor-pointer"
+                  onClick={() => setClickMenu(false)}
+                >
+                  Account Deletion
+                </Link>
               </div>
               <div className="w-full flex flex-col justify-center items-center text-center">
                 <div className="w-full h-[1px] bg-gray-200 mb-4"></div>

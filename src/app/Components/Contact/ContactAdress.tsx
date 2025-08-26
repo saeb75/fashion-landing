@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactAdress() {
   return (
-    <div className="w-full p-4 md:p-8 bg-white rounded-2xl shadow-2xl">
+    <div className="w-full p-4 md:p-8 bg-white rounded-2xl ">
       <div className="text-center mb-6 md:mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
           Visit Us
@@ -12,7 +12,6 @@ function ContactAdress() {
         </p>
       </div>
 
-      {/* Map Section */}
       <div className="mb-6 md:mb-8">
         <div className="relative rounded-xl overflow-hidden shadow-lg">
           <iframe
@@ -85,7 +84,7 @@ function ContactAdress() {
         </div>
 
         {/* Business Hours */}
-        <div className="flex items-start space-x-3 md:space-x-4 p-3 md:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+        {/* <div className="flex items-start space-x-3 md:space-x-4 p-3 md:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
           <div className="flex-shrink-0 w-8 md:w-10 h-8 md:h-10 bg-green-100 rounded-full flex items-center justify-center">
             <svg
               className="w-4 md:w-5 h-4 md:h-5 text-green-600"
@@ -112,7 +111,7 @@ function ContactAdress() {
               Closed on weekends and public holidays
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Contact Methods */}
         <div className="flex items-start space-x-3 md:space-x-4 p-3 md:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
@@ -139,17 +138,17 @@ function ContactAdress() {
               Prefer to email? We&apos;re here to help
             </p>
             <a
-              href="mailto:fashionai@gmail.com"
+              href="mailto:saeb@imtiyaz.io"
               className="text-purple-600 hover:text-purple-800 text-xs md:text-sm font-medium inline-flex items-center mt-2 transition-colors duration-200"
             >
-              fashionai@gamil.com
+              saeb@imtiyaz.io
             </a>
           </div>
         </div>
       </div>
 
       {/* Additional Info */}
-      <div className="mt-6 md:mt-8 p-3 md:p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+      {/* <div className="mt-6 md:mt-8 p-3 md:p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
         <div className="flex items-start space-x-2 md:space-x-3">
           <svg
             className="w-4 md:w-5 h-4 md:h-5 text-blue-600 mt-0.5 flex-shrink-0"
@@ -175,7 +174,7 @@ function ContactAdress() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -18,18 +18,8 @@ function Footer() {
             </span>
           </div>
 
-          {/* Social media section */}
           <div className="flex flex-row pl-1 lg:gap-x-1  justify-center items-center">
-            <span className="text-sm md:text-base text-gray-600 font-medium">
-              Follow us on
-            </span>
-            <a
-              href="#"
-              className="w-8 h-8 md:w-10 md:h-10 bg-gray-200 hover:bg-blue-500 rounded-full flex items-center justify-center transition-all duration-300 group"
-              aria-label="Follow us on Instagram"
-            >
-              <Instagram className="w-4 h-4 md:w-5 md:h-5 text-gray-600 group-hover:text-white transition-colors duration-300" />
-            </a>
+            <a href="mailto:saeb@imtiyaz.io">saeb@imtiyaz.io</a>
           </div>
 
           {/* Legal links section */}
