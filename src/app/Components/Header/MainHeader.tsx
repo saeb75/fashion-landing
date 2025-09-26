@@ -215,20 +215,19 @@ function MainHeader() {
 
               {/* CTA Buttons */}
               <div className="flex flex-row sm:flex-row items-start sm:items-center gap-4 justify-center  pt-6 md:pt-8">
-                <Image
-                  src="/img/r.svg"
-                  alt="App Store"
-                  width={500}
-                  height={500}
-                  className="w-40 md:w-40 lg:w-56 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
-                />
-                <Image
-                  src="/img/e.png"
-                  alt="Google Play"
-                  width={500}
-                  height={500}
-                  className="w-40 md:w-40 lg:w-56 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
-                />
+                <Link
+                  href="https://pixpose.onelink.me/BEOc/trn43ini"
+                  className="animate-fade-in-up hover:scale-105 transition-transform duration-300"
+                  style={{ animationDelay: "0.6s" }}
+                >
+                  <Image
+                    src="/img/r.svg"
+                    alt="App Store"
+                    width={500}
+                    height={500}
+                    className="w-56 mt-12"
+                  />
+                </Link>
               </div>
             </div>
           </div>
